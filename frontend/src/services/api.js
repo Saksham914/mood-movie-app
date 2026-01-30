@@ -1,4 +1,5 @@
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || '/api';
+console.log('MoodFlix API URL:', API_BASE_URL); // Debugging connection
 
 export const movieService = {
     // Get movies by mood
